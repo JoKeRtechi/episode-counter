@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Death-note";
+    src: url(./fonts/Death-note.ttf);
+}
+@font-face {
+    font-family: "JJK";
+    src: url(./fonts/Qetod.ttf);
+}   
+@font-face {
+    font-family: "slipknot";
+    src: url(./fonts/sickness.regular.ttf);
+}
+@font-face {
+    font-family: "late";
+    src: url(./fonts/WithMyWoes.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./img/4167709.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#motivation {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: 'slipknot';
+}
+
+.ep {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'JJK';
+}
+
+.ep h2 {
+    font-family: 'slipknot';
+}
+
+button {
+    font-size: 30px;
+    font-family: 'Death-note';
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    height: 70px;
+    width: 150px;
+    margin-bottom: 10px;
+    background-color: gold;
+}
+
+button:hover {
+    height: 75px;
+    width: 155px;
+    background-color: aqua;
+}
+
+.paragraph {
+    font-size: 30px;
+    font-family: 'late';
+}
+
+#whole {
+    margin-top: 250px;
+    color: white;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
